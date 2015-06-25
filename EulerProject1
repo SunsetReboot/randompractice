@@ -1,0 +1,13 @@
+add = []
+addmetoo = []
+x = range(1000)
+for i in x:
+    if i % 5 and i % 3:
+        add.append(i) and addmetoo.append(i)
+    elif i % 5:
+        add.append(i)
+    elif i % 3:
+        addmetoo.append(i)
+        
+print(sum(add))
+print(sum(addmetoo))
