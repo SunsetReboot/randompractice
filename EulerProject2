@@ -1,11 +1,16 @@
 list = [1, 2]
 total = 0
 n = 0
-if (total<=40):
-    x = (list[n]) 
-    y = (list[n-1])
+while (total<=40):
+    x = (list[n+1]) 
+    y = (list[n])
     add = x + y
     list.append(add)
     n += 1
-    print(list)
-    print(n)
+    if add % 2 == 0:
+        total += add
+    print(total)
+print(list)
+print(total)
+    
+    
