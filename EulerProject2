@@ -1,16 +1,18 @@
 list = [1, 2]
 total = 0
-n = 0
-while (total<=40):
-    x = (list[n+1]) 
+realtot = 0
+n = 1
+while (total<=4000000):
+    x = (list[n-1]) 
     y = (list[n])
     add = x + y
     list.append(add)
-    n += 1
     if add % 2 == 0:
         total += add
-    print(total)
+    n += 1
+for e in list:
+    if e % 2 == 0:
+        realtot += e
 print(list)
 print(total)
-    
-    
+print(realtot)
