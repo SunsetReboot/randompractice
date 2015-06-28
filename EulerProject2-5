@@ -16,3 +16,16 @@ for e in list:
 print(list)
 print(total)
 print(realtot)
+
+
+''' 
+Euler Project 3
+'''
+numlist = []
+multilist = []
+primenum = []
+x = float(input("What is the number you wish to enter?"))
+for n in y:
+   if x % n:
+       multilist.append(n)
+print(numlist)
