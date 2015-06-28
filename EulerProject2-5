@@ -21,11 +21,12 @@ print(realtot)
 ''' 
 Euler Project 3
 '''
-numlist = []
-multilist = []
-primenum = []
-x = float(input("What is the number you wish to enter?"))
-for n in y:
-   if x % n:
-       multilist.append(n)
-print(numlist)
+n = 0
+num = 50
+multinum = []
+while(n<50):
+    if 50 % n == 0:
+        multinum.append(n)
+    n += 1
+print(multinum)
+    
