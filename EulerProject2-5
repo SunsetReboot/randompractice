@@ -30,3 +30,18 @@ while(n<50):
     n += 1
 print(multinum)
     
+'''
+Euler Project 4
+'''
+
+range = range(1, 21)
+list = []
+for x in range:
+    list.append(x)
+print(list)
+num = 0
+for x in range:
+    if num % x == 0:
+        print(num)
+    else:
+        num += 1
