@@ -29,11 +29,11 @@ while(n<50):
         multinum.append(n)
     n += 1
 print(multinum)
+
     
 '''
 Euler Project 4
 '''
-
 range = range(1, 21)
 list = []
 for x in range:
