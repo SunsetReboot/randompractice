@@ -45,3 +45,26 @@ for x in range:
         print(num)
     else:
         num += 1
+        
+'''
+Euler Project 5
+'''
+
+range = reversed(range(21))
+
+list = []
+checking = True
+    
+num = 20
+if checking == True:
+    for x in range:
+        if x == 1:
+            print("Yay!")
+            checking = False
+        else:
+            if num % x == 0:
+                    print("LOL")
+            else:
+                num += 20
+
+print("Checking is done!")
