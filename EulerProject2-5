@@ -68,3 +68,17 @@ if checking == True:
                 num += 20
 
 print("Checking is done!")
+
+'''
+Euler Project 6
+'''
+
+r = range(1, 11)
+list = []
+for x in r:
+    list.append(x)
+    
+for x in r:
+    x = x**2
+    print(x)
+    
