@@ -51,20 +51,19 @@ Euler Project 5
 '''
 
 x = []
-range = range(21)
+range = reversed(range(21))
 for n in range:
     x.append(n)
 
+numchecker = 5
+print(x[numchecker])
 num = 2520
-print(x)
 checking = True
-while checking:
-    for n in x:
-        if num % n != 0:
-            num += 2520
-        else: print(num)
-
-print("Checking is done!")
+if checking:
+    if num % x[numchecker] == 0:
+        numchecker += 1
+        n = 1
+    else: print(num)
 
 '''
 Euler Project 6
